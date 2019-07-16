@@ -23,7 +23,6 @@ def appointments
   end
 end
 
-
 def patients
   Appointments.all.select do |appointment|
     appointment.patients == self
